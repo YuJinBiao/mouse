@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fast-project/fast-common/fast-common.iml" filepath="$PROJECT_DIR$/fast-project/fast-common/fast-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fast-project/fast-common/fast-common.iml" filepath="$PROJECT_DIR$/fast-project/fast-common/fast-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fast-project/fast-project.iml" filepath="$PROJECT_DIR$/fast-project/fast-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/fast-project/fast-project.iml" filepath="$PROJECT_DIR$/fast-project/fast-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/fast-project/fast-web/fast-web.iml" filepath="$PROJECT_DIR$/fast-project/fast-web/fast-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fast-project/fast-web/fast-web.iml" filepath="$PROJECT_DIR$/fast-project/fast-web/fast-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mouse.iml" filepath="$PROJECT_DIR$/mouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/mouse.iml" filepath="$PROJECT_DIR$/mouse.iml" />
     </modules>
   </component>
