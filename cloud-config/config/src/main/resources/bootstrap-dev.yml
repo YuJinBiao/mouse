@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://gitlab.utech.com/Utech/config-repo.git
+          username: Jason.Yu@u-technologies.com
+          password: Qwerty77889!
+  boot:
+    admin:
+      client:
+        url: http://localhost:30001
+server:
+  port: 50010
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:50003/eureka1/,http://localhost:50003/eureka2/,http://localhost:50003/eureka3
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: localhost
+      password: 123456
+      url: jdbc:mysql://localhost:3306/fast?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false

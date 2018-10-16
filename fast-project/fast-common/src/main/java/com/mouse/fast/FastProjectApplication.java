@@ -1,4 +1,4 @@
-package com.mouse;
+package com.mouse.fast;
 
 public class FastProjectApplication {
 

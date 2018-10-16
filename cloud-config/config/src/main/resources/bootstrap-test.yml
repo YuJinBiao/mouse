@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://gitlab.utech.com/utech-offline/config-repo.git
+          username: Jason.Yu@u-technologies.com
+          password: Qwerty77889!
+  boot:
+    admin:
+      client:
+        url: http://admin.offline.microservice.utech.com:30001
+server:
+  port: 50010
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

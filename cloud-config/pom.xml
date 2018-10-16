@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>com.mouse</groupId>
@@ -8,26 +9,22 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>fast-project</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+
+    <artifactId>cloud-config</artifactId>
     <packaging>pom</packaging>
-
-    <name>fast-project</name>
-    <description>fast-project</description>
-
-
+    <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>fast-common</module>
-        <module>fast-web</module>
+        <module>discovery</module>
+        <module>config</module>
+        <module>sba</module>
     </modules>
 
     <properties>
-        <!--内部-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <!-- 额外-->
-        <fast-web.version>1.0.0-SNAPSHOT</fast-web.version>
-        <fast-common.version>1.0.0-SNAPSHOT</fast-common.version>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
     </properties>
+
 </project>

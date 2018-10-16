@@ -1,12 +1,14 @@
 package com.mouse;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-public class FastProjectApplication {
-
+@EnableConfigServer
+public class ConfigApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FastProjectApplication.class, args);
+        SpringApplication.run(ConfigApplication.class, args);
     }
 }

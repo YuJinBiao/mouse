@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://config.offline.microservice.utech.com:50010
+      label: test
+      profile: test
+  application:
+    name: admin
